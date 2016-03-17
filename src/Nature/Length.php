@@ -8,7 +8,7 @@ class Length
 
     public function __construct($length)
     {
-        $this->length = (float)$length;
+        $this->length = (float) $length;
     }
 
     public function getInMeters()
@@ -35,5 +35,4 @@ class Length
     {
         return $this->getInMeters() / 1000;
     }
-
 }
